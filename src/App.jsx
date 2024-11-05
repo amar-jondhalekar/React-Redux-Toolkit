@@ -17,9 +17,11 @@ function App() {
     // used reducer function to decrease count by 1
     dispatch(decrement());
   }
+  // used reducer function to reset value to 0
   function handleResetClick(){
     dispatch(reset());
   }
+  // used reducer function to print payload data 
   function handleIncAmountClick(){
     dispatch(incrementByAmount(amount));
   }
